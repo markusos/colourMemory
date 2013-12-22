@@ -10,7 +10,7 @@
 	*/
 	
 	//Read config file 
-	$configstring = file_get_contents('http://labs.funspot.tv/worktest_color_memory/colours.conf');
+	$configstring = file_get_contents('colours.conf'); // Could be changed to external config file
 	$configarray = explode("\n", $configstring);
 	
 	//Build JSON Object
